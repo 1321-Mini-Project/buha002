@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>1321_박상부</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -15,6 +15,8 @@
             color: black;
 
             background-image: url('./src/img/background1.jpg');
+            
+            background-size: cover;
             background-position: center;
         }
         body {
@@ -99,6 +101,52 @@
         .info dl dd {
             margin-bottom: 10px;
         }
+
+        
+        <style>
+    .main {
+        color: black;
+        background-image: url('./src/img/background1.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    #team-text {
+        text-align: center;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.8); /* 투명한 흰색 배경 */
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* 그림자 효과 */
+        border: 2px solid rgba(0, 0, 0, 0.2); /* 선명한 테두리 */
+        color: #333; /* 글씨를 선명한 색으로 변경 */
+        font-family: 'Arial', sans-serif;
+    }
+
+    #team-text h1 {
+        font-size: 3.5rem;
+        color: #2c3e50;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* 약간의 텍스트 그림자 */
+    }
+
+    #team-text p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.6;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* 더 섬세한 텍스트 그림자 */
+        color: #444; /* 텍스트 색상 변경 */
+    }
+    
+</style>
+
+
+    
+</style>
+
+        
+        
+        
+
+       
     </style>
     <script>
         // 이미지 슬라이드
@@ -206,11 +254,11 @@
         </header>
         <div class="main">
             <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-                <div class="container-fluid py-5">
+                <div class="container-fluid py-5" id="team-text">
                     <h1 class="display-5 fw-bold text-dark">1321</h1>
-                    <p class="col-md-8 fs-4 "><b>안녕하세요 저는 1321 팀원 박상부 입니다. <br>
+                    <b><p><b>안녕하세요 저는 1321 팀원 박상부 입니다. <br>
                             저희는 MBTI I가 3명이고 E가 1명 이어서<br>
-                            그 의미를 담아 1321로 팀명을 짓게 되었습니다.</b></p>
+                            그 의미를 담아 1321로 팀명을 짓게 되었습니다.</b></b></p>
 
 
                 </div>
@@ -222,8 +270,8 @@
             <!-- Slider Section -->
             <div class="slider">
                 <div class="slider-images">
-                    <img src="./src/img/tiger.jpg" alt="Tiger 1">
-                    <img src="./src/img/tiger2.jpg" alt="Tiger 2">
+                    <img src="./src/img/pro1.jpg" alt="me">
+                    
                 </div>
                 <div class="slider-buttons">
                     <button id="prevBtn">&#9664;</button>
@@ -242,7 +290,7 @@
                     <dt>MBTI</dt>
                     <dd>INTP</dd>
                     <dt>좋아하는 동물</dt>
-                    <dd>AI호랑이</dd>
+                    <dd>호랑이</dd>
                 </dl>
             </div>
         </div>
